@@ -1,0 +1,14 @@
+@media (max-width: 1199.98px ) {}
+@media (max-width: 991.98px ) {}
+@media (max-width: 767.98px ) {}
+@media (max-width: 575.98px ) {
+    .name-description {
+        font-size: 1.5rem;
+    }
+    .top-text {
+        font-size: 1.4rem;
+    }
+    .subtopic {
+        font-size: 1.5rem;
+    }
+}

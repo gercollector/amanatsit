@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #e6e6e6;
+    color: #555555;
+}
+
+/*######################### HEADER ##########################*/
+
+header {
+   margin-top: 276px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px 10px;
+}
+
+.about-box {
+    text-align: center;
+}
+
+.about-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name-description {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #bd2130;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.specialty-description {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.top-text {
+    position: relative;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.top-text:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 70px;
+    height: 3px;
+    background: #bd2130;
+}
+
+.description {
+    padding-top: 15px;
+}
+
+.about-description span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    width: 80px;
+}
+
+.about-description p {
+    font-size: 14px;
+}
+
+/*######################### HEADER ##########################*/
+
+/*########################## SKILLS ########################*/
+
+.subtopic {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.9rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#skills .container {
+    margin-top: 40px;
+}
+
+.item-box p {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.item-box p:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 20%;
+    height: 4px;
+    background: #bd2130;
+}
+
+.item-box p:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 80%;
+    height: 4px;
+    background: #e6e6e6;
+}
+
+/*########################## SKILLS ########################*/
+
+/*########################## CODE ##########################*/
+
+#code .container {
+    margin-top: 40px;
+}
+
+.code-example {
+
+}
+
+.code-example pre {
+    background: #e6e6e6;
+    font-size: 1rem;
+}
+
+/*########################## CODE ##########################*/
+
+/*######################### EXPERIENCE ######################*/
+
+#experience .container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#experience p {
+    letter-spacing: 3px;
+
+}
+
+/*######################### EXPERIENCE ######################*/
+
+/*########################## FOOTER #########################*/
+
+footer {
+    margin-top: 80px;
+}
+
+footer .container {
+    background: #bd2130;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+/*########################## FOOTER #########################*/
